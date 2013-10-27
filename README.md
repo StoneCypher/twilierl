@@ -36,7 +36,7 @@ Making it simpler
 
 Wrap your credentials up.
 
-```
+```erlang
 5> MySend = fun(Num, Msg) -> twilierl:send(SID, Auth, SendNumber, Num, Msg, undefined) end.
 #Fun<erl_eval.20.17052888>
 
@@ -50,3 +50,8 @@ Wrap your credentials up.
       {"x-shenanigans","none"}],
      "{\"sid\": \"SM069...\", \"date_created\": \"Sun, 27 Oct 2013 04:00:28 +0000\", \"date_updated\": \"Sun, 27 Oct 2013 04:00:28 +0000\", \"date_sent\": null, \"account_sid\": \"41a3...\", \"to\": \"+14125550138\", \"from\": \"+16195550121\", \"body\": \"aouheo\", \"status\": \"queued\", \"num_segments\": \"1\", \"num_media\": \"0\", \"direction\": \"outbound-api\", \"api_version\": \"2010-04-01\", \"price\": null, \"uri\": \"/2010-04-01/Accounts/41a3.../Messages/SM069....json\", \"subresource_uris\": {\"media\": \"/2010-04-01/Accounts/41a3.../Messages/SM069.../Media.json\"}}"}}
 ```
+
+Some notes
+----------
+
+You should have a [Twilio account](http://www.twilio.com/) set up for this.
