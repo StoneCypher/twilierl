@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+{application, twilierl,
+ [
+  {description, "Erlang Twilio Client"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  %% uncomment if this is an active application
+  %% {mod, { twilierl_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
