@@ -3,6 +3,8 @@ twilierl
 
 Twilierl is a Twilio client for erlang.  Send SMSes from your REPL for a penny.  Woo.
 
+So far it only does SMS sending.  No MMS, no media messages, no calls, etc, yet.
+
 Usage
 -----
 
